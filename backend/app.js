@@ -17,9 +17,8 @@ const port = process.env.PORT;
 connectDB();
 
 const allowedOrigins = [
-  "https://main.d1sj7cd70hlter.amplifyapp.com",
-  "https://expense-tracker-app-three-beryl.vercel.app",
-  "http://localhost:3000"
+  "http://localhost:3000",
+  "https://expense-manegment.vercel.app"
 ];
 
 app.use(express.json());
